@@ -4,12 +4,24 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 600px;
   height: auto;
-  margin: 50px auto;
+  margin: auto auto;
   background-color: #080820b7;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .container {
