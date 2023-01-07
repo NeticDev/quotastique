@@ -459,7 +459,7 @@ const quoteAuthorHtml = document.getElementById("author");
 
 function getRandomQuote() {
   const quoteListLength = quoteList.length;
-  const randomQuoteIndex = Math.floor(Math.random() * quoteListLength - 1);
+  const randomQuoteIndex = Math.floor(Math.random() * quoteListLength);
   return quoteList[randomQuoteIndex];
 }
 
